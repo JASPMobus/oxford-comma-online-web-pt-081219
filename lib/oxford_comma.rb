@@ -8,5 +8,5 @@ def oxford_comma(array)
     last = array.pop
     
     "#{array.inject { |ret, item| "#{ret}, #{item}"}}, and #{last}"
-    
+  end
 end
