@@ -10,4 +10,5 @@ def oxford_comma(array)
     array.inject do |ret, item|
       "#{ret}, #{item}"
     end
+    
 end
