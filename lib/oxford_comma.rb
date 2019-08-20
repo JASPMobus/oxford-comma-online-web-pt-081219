@@ -7,8 +7,6 @@ def oxford_comma(array)
   else
     last = array.pop
     
-    array.inject do |ret, item|
-      "#{ret}, #{item}"
-    end
+    array.inject { |ret, item| "#{ret}, #{item}"}
     
 end
