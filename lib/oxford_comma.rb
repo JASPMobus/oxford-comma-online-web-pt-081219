@@ -5,8 +5,7 @@ def oxford_comma(array)
   when 2
     "#{array[0]} and #{array[1]}"
   else
-    last = array.last
-    array.pop
+    last = array.pop
     
     array.inject do |ret, item|
       
